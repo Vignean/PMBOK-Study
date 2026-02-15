@@ -303,6 +303,242 @@ details p, details ul, details li{
     <details><summary>User story</summary><div class="definition">Short description of desired functionality from the user perspective.</div></details>
   </details>
 
+  <!-- Book of Forms Section -->
+<details>
+  <summary>Book of Forms</summary>
+
+  <!-- Initiating Forms -->
+  <details>
+    <summary>Initiating Forms</summary>
+
+    <details>
+      <summary>Project Charter</summary>
+      <details><summary>Summary milestone schedule</summary></details>
+      <details><summary>Preapproved financial resources</summary></details>
+      <details><summary>Key stakeholder list</summary></details>
+      <details><summary>Project exit criteria</summary></details>
+      <details><summary>Project manager responsibility and authority</summary></details>
+      <details><summary>Sponsor / authorizer name and authority</summary></details>
+    </details>
+
+    <details>
+      <summary>Assumption Log</summary>
+      <details><summary>Identifier</summary></details>
+      <details><summary>Category</summary></details>
+      <details><summary>Assumption or constraint</summary></details>
+      <details><summary>Responsible party</summary></details>
+      <details><summary>Due date</summary></details>
+      <details><summary>Actions</summary></details>
+      <details><summary>Status</summary></details>
+      <details><summary>Comments</summary></details>
+    </details>
+
+    <details>
+      <summary>Stakeholder Register</summary>
+      <details><summary>Name</summary></details>
+      <details><summary>Position in organization</summary></details>
+      <details><summary>Role in project</summary></details>
+      <details><summary>Contact information</summary></details>
+      <details><summary>Major requirements</summary></details>
+      <details><summary>Expectations</summary></details>
+      <details><summary>Classification</summary></details>
+    </details>
+
+    <details>
+      <summary>Stakeholder Analysis</summary>
+      <details><summary>Name or role</summary></details>
+      <details><summary>Interest</summary></details>
+      <details><summary>Influence / impact</summary></details>
+      <details><summary>Attitude</summary></details>
+    </details>
+  </details>
+
+  <!-- Planning Forms -->
+  <details>
+    <summary>Planning Forms</summary>
+
+    <details>
+      <summary>Project Management Plan</summary>
+      <details><summary>Project life cycle</summary></details>
+      <details><summary>Development approach</summary></details>
+      <details><summary>Subsidiary plans</summary></details>
+      <details><summary>Scope, schedule, cost thresholds</summary></details>
+      <details><summary>Baselines</summary></details>
+    </details>
+
+    <details>
+      <summary>Change Management Plan</summary>
+      <details><summary>Change approach</summary></details>
+      <details><summary>Definitions of change</summary></details>
+      <details><summary>Change control board</summary></details>
+      <details><summary>Change control process</summary></details>
+    </details>
+
+    <details>
+      <summary>Requirements Management Plan</summary>
+      <details><summary>Requirements collection</summary></details>
+      <details><summary>Analysis</summary></details>
+      <details><summary>Prioritization</summary></details>
+      <details><summary>Traceability</summary></details>
+      <details><summary>Validation</summary></details>
+      <details><summary>Configuration management</summary></details>
+    </details>
+
+    <details>
+      <summary>Work Breakdown Structure</summary>
+      <details><summary>Major deliverables</summary></details>
+      <details><summary>Control accounts</summary></details>
+      <details><summary>Work packages</summary></details>
+    </details>
+
+    <details>
+      <summary>Schedule Management Plan</summary>
+      <details><summary>Scheduling methodology</summary></details>
+      <details><summary>Tools</summary></details>
+      <details><summary>Variance thresholds</summary></details>
+      <details><summary>Reporting format</summary></details>
+    </details>
+
+    <details>
+      <summary>Cost Management Plan</summary>
+      <details><summary>Units of measure</summary></details>
+      <details><summary>Precision and accuracy</summary></details>
+      <details><summary>Control thresholds</summary></details>
+      <details><summary>Performance measurement rules</summary></details>
+    </details>
+
+    <details>
+      <summary>Risk Management Plan</summary>
+      <details><summary>Strategy and methodology</summary></details>
+      <details><summary>Roles and responsibilities</summary></details>
+      <details><summary>Probability and impact definitions</summary></details>
+      <details><summary>Risk tracking</summary></details>
+    </details>
+
+    <details>
+      <summary>Procurement Management Plan</summary>
+      <details><summary>Procurement integration</summary></details>
+      <details><summary>Contract types</summary></details>
+      <details><summary>Risk management</summary></details>
+      <details><summary>Prequalified sellers</summary></details>
+    </details>
+
+    <details>
+      <summary>Stakeholder Engagement Plan</summary>
+      <details><summary>Engagement assessment matrix</summary></details>
+      <details><summary>Engagement approach</summary></details>
+      <details><summary>Stakeholder changes</summary></details>
+    </details>
+  </details>
+
+  <!-- Executing Forms -->
+  <details>
+    <summary>Executing Forms</summary>
+
+    <details>
+      <summary>Issue Log</summary>
+      <details><summary>ID</summary></details>
+      <details><summary>Type</summary></details>
+      <details><summary>Description</summary></details>
+      <details><summary>Priority</summary></details>
+      <details><summary>Status</summary></details>
+      <details><summary>Resolution</summary></details>
+    </details>
+
+    <details>
+      <summary>Change Request</summary>
+      <details><summary>Requestor</summary></details>
+      <details><summary>Description</summary></details>
+      <details><summary>Justification</summary></details>
+      <details><summary>Impacts</summary></details>
+      <details><summary>Status</summary></details>
+    </details>
+
+    <details>
+      <summary>Lessons Learned Register</summary>
+      <details><summary>ID</summary></details>
+      <details><summary>Lesson</summary></details>
+      <details><summary>Category</summary></details>
+      <details><summary>Responsible party</summary></details>
+    </details>
+  </details>
+
+  <!-- Monitoring & Controlling -->
+  <details>
+    <summary>Monitoring and Controlling Forms</summary>
+
+    <details>
+      <summary>Project Status Report</summary>
+      <details><summary>Accomplishments</summary></details>
+      <details><summary>Variances</summary></details>
+      <details><summary>Corrective actions</summary></details>
+      <details><summary>Risks and issues</summary></details>
+    </details>
+
+    <details>
+      <summary>Earned Value Analysis</summary>
+      <details><summary>Planned value</summary></details>
+      <details><summary>Earned value</summary></details>
+      <details><summary>Actual cost</summary></details>
+      <details><summary>SPI / CPI</summary></details>
+    </details>
+
+    <details>
+      <summary>Risk Audit</summary>
+      <details><summary>Risk events</summary></details>
+      <details><summary>Risk responses</summary></details>
+      <details><summary>Process effectiveness</summary></details>
+    </details>
+  </details>
+
+  <!-- Closing -->
+  <details>
+    <summary>Closing</summary>
+
+    <details>
+      <summary>Lessons Learned Summary</summary>
+      <details><summary>What worked well</summary></details>
+      <details><summary>What can be improved</summary></details>
+    </details>
+
+    <details>
+      <summary>Project or Phase Closeout</summary>
+      <details><summary>Performance summary</summary></details>
+      <details><summary>Benefits realization</summary></details>
+      <details><summary>Risks and issues</summary></details>
+    </details>
+  </details>
+
+  <!-- Agile -->
+  <details>
+    <summary>Agile</summary>
+
+    <details>
+      <summary>Project Vision</summary>
+      <details><summary>Target customer</summary></details>
+      <details><summary>Needs</summary></details>
+      <details><summary>Key benefits</summary></details>
+    </details>
+
+    <details>
+      <summary>Product Backlog</summary>
+      <details><summary>ID</summary></details>
+      <details><summary>Story</summary></details>
+      <details><summary>Priority</summary></details>
+      <details><summary>Status</summary></details>
+    </details>
+
+    <details>
+      <summary>Retrospective</summary>
+      <details><summary>Start</summary></details>
+      <details><summary>Stop</summary></details>
+      <details><summary>Keep</summary></details>
+      <details><summary>More / Less</summary></details>
+    </details>
+  </details>
+
+</details>
+
 </details>
 
 </body>
