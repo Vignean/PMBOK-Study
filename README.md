@@ -300,6 +300,7 @@ details p, details ul, details li{
   </details>
 
 <!-- Book of Forms Section -->
+<details>
 <summary>Book of Forms</summary>
   <!-- Initiating Forms -->
 <details>
@@ -535,8 +536,6 @@ details p, details ul, details li{
       <details><summary>More / Less</summary></details>
     </details>
   </details>
-
-</details>
 
 </details>
 
