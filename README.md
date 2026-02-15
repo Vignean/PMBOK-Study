@@ -38,7 +38,7 @@ details details details > summary{
 details details details details > summary{
     color: #ffffff; /* White */;
      font-size:15px;
-    font-weight: normal;
+    font-weight:normal;
 }
     
 /* Content text */
