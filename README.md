@@ -34,7 +34,8 @@ details details details > summary{
 }
  
 /* Tier 4 */
- details details details details > summary{
+
+details details details details > summary{
     color: #ffffff; /* White */;
      font-size:17px;
     font-weight: normal;
