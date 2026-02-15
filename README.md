@@ -548,3 +548,161 @@ details p, details ul, details li{
 </details>
 
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digital Booklet with Global Tier Search</title>
+<style>
+  body {
+    background:#0b1220;
+    color:#e5e7eb;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  /* Search box styling */
+  #searchBox {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 220px;
+    z-index: 100;
+  }
+
+  details {
+    margin: 3px 0;
+    padding-left: 6px;
+  }
+
+  summary {
+    cursor: pointer;
+    padding: 2px 0;
+  }
+
+  /* Tier 1 (Red) */
+  body > details > summary {
+    color: #f87171; 
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  /* Tier 2 (Green) */
+  body > details > details > summary {
+    color: #4ade80;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  /* Tier 3 (Blue) */
+  body > details > details > details > summary {
+    color: #38bdf8;
+    font-weight: bold;
+  }
+
+  /* Last-tier pin-point items */
+  .leaf {
+    color: #ffffff;
+    font-weight: normal;
+    padding-left: 20px;
+    display: block;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+</style>
+</head>
+<body>
+
+<!-- Search Box -->
+<input type="text" id="searchBox" placeholder="Search Tier 1-3...">
+
+<!-- Example Sections -->
+
+<details open>
+  <summary>Models</summary>
+  <details>
+    <summary>Motivation Models</summary>
+    <details>
+      <summary>Theory of Needs</summary>
+      <div class="leaf">Maslow</div>
+      <div class="leaf">Herzberg</div>
+    </details>
+  </details>
+</details>
+
+<details open>
+  <summary>Methods</summary>
+  <details>
+    <summary>Data Gathering Methods</summary>
+    <details>
+      <summary>SWOT Analysis</summary>
+      <div class="leaf">Strengths</div>
+      <div class="leaf">Weaknesses</div>
+      <div class="leaf">Opportunities</div>
+      <div class="leaf">Threats</div>
+    </details>
+  </details>
+</details>
+
+<details open>
+  <summary>Artifacts</summary>
+  <details>
+    <summary>Strategy Artifacts</summary>
+    <details>
+      <summary>Business Case</summary>
+      <div class="leaf">Objective</div>
+      <div class="leaf">Benefits</div>
+    </details>
+  </details>
+</details>
+
+<details open>
+  <summary>Book of Forms</summary>
+  <details>
+    <summary>Agile</summary>
+    <details>
+      <summary>Release Plan</summary>
+      <div class="leaf">Release dates</div>
+      <div class="leaf">User stories</div>
+    </details>
+  </details>
+</details>
+
+<script>
+const searchBox = document.getElementById('searchBox');
+
+searchBox.addEventListener('input', function() {
+  const query = this.value.toLowerCase();
+
+  // Select all Tier 1, Tier 2, Tier 3 summaries globally
+  const summaries = document.querySelectorAll(
+    'body > details > summary, ' +                // Tier 1
+    'body > details > details > summary, ' +     // Tier 2
+    'body > details > details > details > summary' // Tier 3
+  );
+
+  summaries.forEach(summary => {
+    if (summary.textContent.toLowerCase().includes(query)) {
+      summary.classList.remove('hidden');
+      
+      // Auto-open parent details if match found
+      let parent = summary.parentElement;
+      while(parent && parent.tagName === 'DETAILS') {
+        parent.open = true;
+        parent = parent.parentElement;
+      }
+    } else {
+      summary.classList.add('hidden');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
