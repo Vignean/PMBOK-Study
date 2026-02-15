@@ -298,6 +298,7 @@ details p, details ul, details li{
     <details><summary>Project team charter</summary><div class="definition">Document defining team roles, responsibilities, and norms.</div></details>
     <details><summary>User story</summary><div class="definition">Short description of desired functionality from the user perspective.</div></details>
   </details>
+</details>
 
 <!-- Book of Forms Section -->
 <details>
@@ -536,8 +537,6 @@ details p, details ul, details li{
       <details><summary>More / Less</summary></details>
     </details>
   </details>
+</details>
+</details>
 
-</details>
-</details>
-</body>
-</html>
