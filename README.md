@@ -34,7 +34,7 @@ details details details > summary{
 }
  
 /* Tier 4 */
- .leaf {
+ details details details details > summary{
     color: #ffffff; /* White */;
      font-size:17px;
     font-weight: normal;
