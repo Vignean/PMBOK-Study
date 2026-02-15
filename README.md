@@ -29,7 +29,7 @@ details details > summary{
 /* Tier 3 */
 details details details > summary{
   color:#4ade80;
-  font-size:15px;
+  font-size:18px;
   font-weight:bold;
 }
  
@@ -37,7 +37,7 @@ details details details > summary{
 
 details details details details > summary{
     color: #ffffff; /* White */;
-     font-size:17px;
+     font-size:15px;
     font-weight: normal;
 }
     
