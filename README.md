@@ -8,7 +8,7 @@
   body { background:#0b1220; color:#e5e7eb; font-family:Arial, sans-serif; margin:0; padding:10px; font-size:12px; line-height:1.3; }
   details { background:#111827; border-radius:6px; padding:6px; margin:3px 0; }
 
-  /* First-tier titles: Models, Methods, Artifacts */
+
   body > details > summary {
     cursor:pointer;
     color:#f87171; /* Red */
@@ -16,7 +16,7 @@
     font-size:16px;
   }
 
-  /* Second-tier titles: subcategories under first-tier */
+
   body > details > details > summary {
     cursor:pointer;
     color:#4ade80; /* Green */
@@ -24,7 +24,7 @@
     font-size:14px;
   }
 
-  /* Nested summaries (third-tier and below) */
+ 
   details summary { cursor:pointer; color:#38bdf8; font-weight:bold; font-size:13px; }
 
   h4 { color:#a5f3fc; margin:3px 0 2px 15px; font-size:12px; }
