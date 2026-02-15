@@ -537,7 +537,7 @@ details p, details ul, details li{
   <details><summary>User stories</summary></details>
 </details>
 
-    <details>
+  <details>
       <summary>Retrospective</summary>
       <details><summary>Start</summary></details>
       <details><summary>Stop</summary></details>
@@ -547,77 +547,6 @@ details p, details ul, details li{
   </details>
 </details>
 
-
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Digital Booklet with Global Tier Search</title>
-<style>
-  body {
-    background:#0b1220;
-    color:#e5e7eb;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    padding: 12px;
-  }
-
-  /* Search box styling */
-  #searchBox {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 6px;
-    font-size: 12px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    width: 220px;
-    z-index: 100;
-  }
-
-  details {
-    margin: 3px 0;
-    padding-left: 6px;
-  }
-
-  summary {
-    cursor: pointer;
-    padding: 2px 0;
-  }
-
-  /* Tier 1 (Red) */
-  body > details > summary {
-    color: #f87171; 
-    font-weight: bold;
-    font-size: 16px;
-  }
-
-  /* Tier 2 (Green) */
-  body > details > details > summary {
-    color: #4ade80;
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  /* Tier 3 (Blue) */
-  body > details > details > details > summary {
-    color: #38bdf8;
-    font-weight: bold;
-  }
-
-  /* Last-tier pin-point items */
-  .leaf {
-    color: #ffffff;
-    font-weight: normal;
-    padding-left: 20px;
-    display: block;
-  }
-
-  .hidden {
-    display: none !important;
-  }
-</style>
-</head>
-<body>
 
 <!-- Search Box -->
 <input type="text" id="searchBox" placeholder="Search Tier 1-3...">
@@ -703,6 +632,3 @@ searchBox.addEventListener('input', function() {
   });
 });
 </script>
-
-</body>
-</html>
