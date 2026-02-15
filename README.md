@@ -50,7 +50,7 @@ details p, details ul, details li{
 </head>
 <body>
 
-<details open>
+<details close>
   <summary>Models</summary>
 
   <!-- Situational Leadership Models -->
