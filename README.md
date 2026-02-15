@@ -26,7 +26,7 @@
     cursor: pointer;
     color: #f87171; /* Red */
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
   }
 
   /* Second-tier Title (Green) */
@@ -34,7 +34,7 @@
     cursor: pointer;
     color: #4ade80; /* Green */
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   /* Default summary (Blue) */
@@ -42,7 +42,7 @@
     cursor: pointer;
     color: #38bdf8;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   h4 {
