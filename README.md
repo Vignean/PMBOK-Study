@@ -538,6 +538,6 @@ details p, details ul, details li{
   </details>
 
 </details>
-
+</details>
 </body>
 </html>
