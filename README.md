@@ -29,7 +29,7 @@ details details > summary{
 /* Tier 3 */
 details details details > summary{
   color:#4ade80;
-  font-size:17px;
+  font-size:15px;
   font-weight:bold;
 }
  
