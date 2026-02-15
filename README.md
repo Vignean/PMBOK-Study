@@ -300,12 +300,10 @@ details p, details ul, details li{
   </details>
 
 <!-- Book of Forms Section -->
-<details>
 <summary>Book of Forms</summary>
   <!-- Initiating Forms -->
 <details>
 <summary>Initiating Forms</summary>
-
    <details>
       <summary>Project Charter</summary>
       <details><summary>Summary milestone schedule</summary></details>
