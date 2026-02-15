@@ -221,10 +221,6 @@ details p, details ul, details li{
     <details><summary>Test plan</summary><div class="definition">Approach to test deliverables against requirements.</div></details>
   </details>
 
-  <!-- Continue for Hierarchy, Baseline, Visual Data, Reports, Agreements, Other Artifacts -->
-  <!-- For brevity, not fully expanded here but structure follows same nested details style -->
-<!-- Continuing from Artifacts Section -->
-
   <!-- Hierarchy Chart Artifacts -->
   <details>
     <summary>Hierarchy Chart Artifacts</summary>
@@ -303,12 +299,12 @@ details p, details ul, details li{
     <details><summary>User story</summary><div class="definition">Short description of desired functionality from the user perspective.</div></details>
   </details>
 
-  <!-- Book of Forms Section -->
+<!-- Book of Forms Section -->
 <details>
-  <summary>Book of Forms</summary>
+<summary>Book of Forms</summary>
   <!-- Initiating Forms -->
-  <details>
-    <summary>Initiating Forms</summary>
+<details>
+<summary>Initiating Forms</summary>
 
    <details>
       <summary>Project Charter</summary>
