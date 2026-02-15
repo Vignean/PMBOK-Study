@@ -5,23 +5,19 @@
 <title>PMBOK® 7 – Complete Nested Collapsible Booklet</title>
 <style>
 body{
-  background:#0b1220;color:#D30000;font:15px Arial;line-height:1.3;
+  background:#0b1220;font:15px Arial;line-height:1.3;
   margin:0;padding:10px
 }
 details{background:#111827;border-radius:6px;padding:6px;margin:3px 0}
 
 /* Default */
-details summary{cursor:pointer;color:#38bdf8;font-weight:bold;font-size:20px}
+summary{cursor:pointer;color:#38bdf8;font-weight:bold;font-size:20px}
 
 /* First tier */
-body>details>summary{color:#a45a52;font-size:30px}
+details > summary{color:#a45a52;font-size:30px}
 
 /* Second tier */
-body>details>details>summary{color:#4ade80;font-size:24px}
-
-h4{color:#a5f3fc;margin:3px 0 2px 15px;font-size:15px}
-ul{margin:1px 0 2px 25px;font-size:12px}
-.definition{color:#cbd5e1;font-size:10px;margin-left:20px}
+details details > summary{color:#4ade80;font-size:24px}
 </style>
 </head>
 <body>
