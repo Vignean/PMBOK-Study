@@ -4,69 +4,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PMBOK® 7 – Complete Nested Collapsible Booklet</title>
 <style>
-  body {
-    background: #0b1220;
-    color: #D30000;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 10px;
-    font-size: 15px;
-    line-height: 1.3;
-  }
+body{
+  background:#0b1220;color:#D30000;font:15px Arial;line-height:1.3;
+  margin:0;padding:10px
+}
+details{background:#111827;border-radius:6px;padding:6px;margin:3px 0}
 
-  details {
-    background: #111827;
-    border-radius: 6px;
-    padding: 6px;
-    margin: 3px 0;
-  }
+/* Default */
+details summary{cursor:pointer;color:#38bdf8;font-weight:bold;font-size:20px}
 
-  /* First-tier Title (Red) */
-  body > details > summary {
-    cursor: pointer;
-    color: #a45a52; /* Red */
-    font-weight: bold;
-    font-size: 30px;
-  }
+/* First tier */
+body>details>summary{color:#a45a52;font-size:30px}
 
-  /* Second-tier Title (Green) */
-  body > details > details > summary {
-    cursor: pointer;
-    color: #4ade80; /* Green */
-    font-weight: bold;
-    font-size: 24px;
-  }
+/* Second tier */
+body>details>details>summary{color:#4ade80;font-size:24px}
 
-  /* Default summary (Blue) */
-  details summary {
-    cursor: pointer;
-    color: #38bdf8;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  h4 {
-    color: #a5f3fc;
-    margin: 3px 0 2px 15px;
-    font-size: 15px;
-  }
-
-  ul {
-    margin: 1px 0 2px 25px;
-    padding-left: 0;
-    font-size: 12px;
-  }
-
-  li {
-    margin: 1px 0;
-  }
-
-  .definition {
-    color: #cbd5e1;
-    font-size: 10px;
-    margin-left: 20px;
-    padding: 2px 0;
-  }
+h4{color:#a5f3fc;margin:3px 0 2px 15px;font-size:15px}
+ul{margin:1px 0 2px 25px;font-size:12px}
+.definition{color:#cbd5e1;font-size:10px;margin-left:20px}
 </style>
 </head>
 <body>
