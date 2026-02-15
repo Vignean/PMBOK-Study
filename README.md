@@ -24,7 +24,7 @@
   /* First-tier Title (Red) */
   body > details > summary {
     cursor: pointer;
-    color: #f87171; /* Red */
+    color: #a45a52; /* Red */
     font-weight: bold;
     font-size: 30px;
   }
