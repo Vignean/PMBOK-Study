@@ -26,7 +26,7 @@
     cursor: pointer;
     color: #f87171; /* Red */
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
   }
 
   /* Second-tier Title (Green) */
@@ -34,7 +34,7 @@
     cursor: pointer;
     color: #4ade80; /* Green */
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   /* Default summary (Blue) */
@@ -42,19 +42,19 @@
     cursor: pointer;
     color: #38bdf8;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   h4 {
     color: #a5f3fc;
     margin: 3px 0 2px 15px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   ul {
     margin: 1px 0 2px 25px;
     padding-left: 0;
-    font-size: 11px;
+    font-size: 12px;
   }
 
   li {
