@@ -10,7 +10,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.3;
   }
 
