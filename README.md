@@ -33,8 +33,8 @@ details details details > summary{
   font-weight:bold;
 }
  
- /* LAST tier (leaf nodes) */
-  details details details details > summary:not(:has(+ details)) {
+/* Tier 4 */
+  details details details details > summary{
     color: #ffffff; /* White */;
      font-size:17px;
     font-weight: normal;
